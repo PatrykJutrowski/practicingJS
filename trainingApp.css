@@ -1,0 +1,112 @@
+#nav_links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav_links li {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+#nav_links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 1s;
+}
+
+#nav_links a:hover{
+    scale: 150%;
+    transition: ease-in-out 1s;
+}
+    /* Style for the content blocks */
+.content-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-block div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+}
+    /* Style for hidden content blocks */
+.hidden {
+    display: none;
+}
+.hide{
+    display: none;
+}
+
+#nav_links1 {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#nav_links1 li {
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+#nav_links1 a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out 1s;
+}
+
+#nav_links1 a:hover{
+    scale: 150%;
+    transition: ease-in-out 1s;
+}
+
+.content-block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content-block1 div {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: green;
+}
